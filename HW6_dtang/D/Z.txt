@@ -1,0 +1,5 @@
+Python was conceived in the late 1980s[15] and its implementation was started in December 1989[16] by Guido van Rossum at CWI in the Netherlands as a successor to the ABC language (itself inspired by SETL)[17] capable of exception handling and interfacing with the Amoeba operating system.[1] Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator for Life (BDFL).
+
+Python 2.0 was released on 16 October 2000, with many major new features including a full garbage collector and support for Unicode. However, the most important change was to the development process itself, with a shift to a more transparent and community-backed process.[18]
+
+Python 3.0 (also called Python 3000 or py3k), a major, backwards-incompatible release, was released on 3 December 2008[19] after a long period of testing. Many of its major features have been backported to the backwards-compatible Python 2.6 and 2.7.[20]

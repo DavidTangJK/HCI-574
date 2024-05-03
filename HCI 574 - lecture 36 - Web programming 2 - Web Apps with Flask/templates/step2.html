@@ -1,0 +1,47 @@
+<html>
+    <body>
+          
+	  <!-- JavaScript -->
+	  <script>
+		  function mOver(obj)
+		  {
+			  obj.innerHTML=Date()
+		  }
+		  function mOut(obj)
+		  {
+			  obj.innerHTML="{{ title }}";
+		  }
+	  </script>
+	  <!-- JavaScript -->
+	  
+	   <h2 onmouseover="mOver(this)" onmouseout="mOut(this)" >
+		  {{ title }}
+	  </h2>
+	  
+	  
+	  <!-- not yet connected to server, so nothing will happen when you hit the submit button for now ... -->
+	  <form action="">
+		  Example of two Radio buttons: <br>       
+		  <input type="radio" name="status" value="On">On<br>
+		  <input type="radio" name="status" value="Off" checked>Off<br>
+  
+		  <br>Example of a drop-down list with a pre selected value: <br>     
+		  <select name="lang">
+		  <option value="C++">C++</option>
+		  <option value="Java">Java</option>
+		  <option value="Python" selected>Python</option>
+		  <option value="Fortran">Fortran</option>
+		  </select>
+  
+		 <br><br>Example of a text entry field<br> 
+			<input type="text" name="URL"   
+				value="www.iastate.edu/index" 
+				size="40">
+		 <br><br>       
+		 <input type="submit" value="Submit Form content">
+	   </form>             
+  
+
+      
+    </body>
+</html>

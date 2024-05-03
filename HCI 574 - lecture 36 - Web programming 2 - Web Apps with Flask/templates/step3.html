@@ -1,0 +1,19 @@
+<html>
+  <body>
+  	{{ title }} <br><br>  
+  	<form action="/result/" method="get">    <!-- /result/ is the URL (route) to go to on submit -->
+		Select a value:
+		<select name="language">
+	  		<option value="C++">C++</option>
+	  		<option value="Java">Java</option>
+	  		<option value="Python" selected>Python</option>
+	  		<option value="Fortran">Fortran</option>
+		</select><br>
+	 	Enter a URL: 
+		<input  type="text"  name="URL"
+			value="www.iastate.edu/index" 
+			size="40"><br>
+		<input type="submit" value="Submit URL to Server">
+    </form>             
+  </body>
+</html>
